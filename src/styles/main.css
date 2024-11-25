@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #fc1e8a;
+    background: #9ae6eb;
     user-select: none;
 }
 
@@ -17,21 +17,26 @@ body {
     padding: 40px 60px;
     background: linear-gradient(325deg,
             #03001e 0%,
-            #7303c0 30%,
-            #ec38bc 70%,
-            #fdeff9 100%);
+            #03c09a 30%,
+            #4c9087 70%,
+            #92eaf0 100%);
+            border-radius: 15px;
 }
 
 h2 {
     font-size: 3em;
     color: #fff;
+    padding: 5px 25px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-shadow: 2px 2px 2px #17664a;
+    
+    
 }
 
 .reset {
     padding: 15px 20px;
-    width: 100%;
+    width: 80%;
     color: #000;
     background-color: #fff;
     font-size: 1.5em;
@@ -39,17 +44,20 @@ h2 {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px #17664a;
 
 }
 
 .reset:focus {
-    color: #ec38bc;
+    color: #43f2b5;
     background-color: #262809;
+    text-shadow: 1px 1px 2px #ffffff;
 }
 
 .game {
     
-    width: 430px;
+    width: 430px; 
     height: 430px;
     display: flex;
     flex-wrap: wrap;
@@ -67,21 +75,25 @@ h2 {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-
     font-size: 3.5em;
     transform: rotateY(-180deg);
     transition: 0.25s;
+    border-radius: 15px;
 
 }
 
 .item::after{
-    content: "";
+    text-align: center;
+    align-content: center;
+    color: #03c09a;
+    content: "🍭";
     position: absolute;
     inset: 0;
-    background: #262809;
+    background: #000000;
     transition: 0.25s;
     transform: scaleY(0deg);
     backface-visibility: hidden;
+    border-radius: 15px;
     /* opacity: 0.85; */
 }
 
