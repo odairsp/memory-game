@@ -46,6 +46,7 @@ h2 {
     cursor: pointer;
     border-radius: 15px;
     text-shadow: 1px 1px 2px #17664a;
+    box-shadow: 2px 2px 4px #000;
 
 }
 
@@ -53,6 +54,7 @@ h2 {
     color: #43f2b5;
     background-color: #262809;
     text-shadow: 1px 1px 2px #ffffff;
+    box-shadow: 0px 0px 0px;
 }
 
 .game {
